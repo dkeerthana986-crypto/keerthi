@@ -1,0 +1,16 @@
+# Writing data into a file
+file = open("student.txt","w")
+
+file.write("Name:Keerthana.D\n")
+file.write("Roll No: 25251A1707\n")
+file.write("Department: ETM")
+
+file.close()
+
+# Reading data from the file
+file = open("student.txt","r")
+
+data = file.read()
+print(data)
+
+file.close()
